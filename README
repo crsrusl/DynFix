@@ -1,0 +1,13 @@
+# DynFix
+
+### Description
+DynFix is a golang application which is used to remotely update Cloudflare DNS records.
+
+### What's it for?
+DynFix looks to replicate the functionality of the Dynamic DNS service found at [DynDNS](https://dyn.com/remote-access/), but over Cloudflare
+
+### How does it work
+- Clone this respository and update the config information
+- Build the application and run on the environment which you are looking to bind to with a Cloudflare enabled domain name
+
+DynFix will automatically update your domain name to point to your dynamic IP address, thus eliminating the need for a paid dynamic dns service.
